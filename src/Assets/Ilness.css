@@ -1,0 +1,22 @@
+#pp{
+    align-items: center;
+    text-align: center;
+    border: 5px solid black;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color:rgb(246, 71, 167);
+    
+}
+
+.bg{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://img.freepik.com/free-vector/national-doctor-s-day-hand-drawn-background_23-2149438164.jpg?w=2000");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+  
+  

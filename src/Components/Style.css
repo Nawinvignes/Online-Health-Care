@@ -1,0 +1,104 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  /* background-image: url('C:\Users\NITIN\Desktop\Workspace\day4i\src\img\Jupiter.jpg');   */
+  background-image: url('C:\Users\Nawin Vignesh P\Desktop\ReactProject\src\img\alexander-shatov-mr4JG4SYOF8-unsplash.jpg');
+  /* background-image: url('C:\Users\NITIN\Desktop\Workspace\day4i\src\img\desktop-wallpaper-backgrounds-for-login-page-login-page.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hid{
+  display: none;
+  height: 50%;
+}
+.division{
+  /* background-image:url('C:\Users\NITIN\Desktop\Workspace\day4i\src\img\desktop-wallpaper-backgrounds-for-login-page-login-page.jpg'); */
+  background-color:antiquewhite;
+  color: black;
+  height: 100vh;
+  width: 35vw;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: 10px;
+}
+#ch1{
+  height: 80vh;
+  width: 30vw;
+  background-color: rgb(255,255,255,0.7);
+}
+#ch2{
+  height: 50vh;
+  width: 30vw;
+  background-color: rgb(255,255,255,0.7);
+}
+.pass{
+  padding: 16px 24px;
+  background-color: beige;
+  border-style: solid;
+  cursor: pointer;
+}
+.eye1{
+  border: none;
+  position: absolute;
+  top: 61%;
+  right: 42.8%;
+  background-color:transparent;  
+  z-index: 1;
+}
+.eye12{
+  border: none;
+  position: absolute;
+  top: 44%;
+  right: 43%;
+  background-color:transparent;  
+  z-index: 1;
+}
+
+.sign{
+  position: absolute;
+  background-color: transparent;
+  top:72.1%;
+  right:42.3%;
+  border-style: none;
+  cursor:pointer;
+  text-decoration-line: underline;
+  color: darkgreen;
+}
+.submit{
+  color:white;
+  background-color: black;
+  padding: 20px 30px;
+  border-radius: 15px;
+  right:50%;
+}
+.submit:hover{
+  color:azure;
+  background-color: black;
+}
+.signi{
+  background-color: beige;
+  color: black;
+  height: 100vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signup{
+  position: absolute;
+  background-color: transparent;
+  top:55.9%;
+  right:40.3%;
+  border-style: none;
+  cursor:pointer;
+  text-decoration-line: underline;
+  color: darkgreen;
+}

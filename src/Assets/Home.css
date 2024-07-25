@@ -1,0 +1,242 @@
+body{
+  background-image: none;
+  background-color: antiquewhite;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-left {
+  text-decoration: solid;
+}
+.navbar-right {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-right a {
+  color: #fff;
+  text-decoration: none;
+}
+.custom-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:transparent;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-link:hover {
+  background-color: white;
+  color: black;
+}
+.navbarele{
+  height: 90vh;
+  width: 97vw;
+  display: flex;
+  flex-direction: row;
+  background-color: beige;
+  font-size: 25px;
+  background: #E0EAFC;
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+  ;
+}
+.one1{
+  height: 80vh;
+  width: 33vw;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-content: center;
+  font-size: 25px;
+}
+#chhhh{
+  height: 80vh;
+  width: 33vw;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-content: center;
+  font-size: 25px;
+}
+.one1-hover{
+background-color:black;
+}
+.btn{
+display: flex;
+flex-direction: row;
+gap:4px;
+}
+.Container2{
+display: flex;
+height: 650px;
+margin-top: 40px;
+}
+.Container2 .item2{
+/* background-color: #80D0C7; */
+text-align: center;
+flex:1 1 1 1 auto;
+color: white;
+margin-top: 17px;
+margin-left: 23px;
+font-size: 32px;
+font-family:unset;
+}
+.Container2 .item2 h5{
+  font-size: 25px;
+}
+.Container2 .item2 h1{
+  font-size: 59px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Container2 .item2{
+/* background-color: blue; */
+flex:1 1 1 auto;
+}
+.Container2 .item1 img{
+margin-left: 25px;
+margin-top: 32px;
+width: 700px;
+height: 500px;
+border-radius: 14px;
+}
+.homepage{
+/* background: #0Fme 26+, Opera 12+, Safari 7+ */ 
+/* background: #8E23C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+.Partners{
+  text-align: center;
+  color: whitesmoke;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.chap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:50px;
+}
+.chap img{
+  height: 29vh;
+  width: 17vw;
+  border-radius: 10px;
+}
+#title1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: blanchedalmond;
+}
+.chap2{
+  border: none;
+  background-color: white;
+  padding: 15px;
+  color: black;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.chap2:hover{
+  background-color: black;
+  color: white; 
+}
+.chap3{
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.chap3:hover{
+  background-color: black;
+  color: white; 
+}
+#logopic{
+  height: 9vh;
+  width: 5vw;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.logoo{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+#temp{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  /* background-color: moccasin; */
+}
+#super{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row; 
+  gap: 30px;
+}
+.supercls{
+  height: 40vh;
+  width: 30vw;
+  color: #CFDEF3;
+  background-color: transparent;
+  transition: scale 0.3s ease-in-out,background-color 0.3s ease-in-out;
+  border-radius: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 7px solid white;
+}
+.supercls:hover{
+  scale: 1.05;
+  background-color: white;
+  border-color: beige;
+  color: black;
+}
+#temp2{
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  text-align: center;
+}
+.block{
+  padding: 10px;
+}
+.fade-in-text {
+  opacity: 0;
+  animation: fadeInAnimation 2s ease-in-out forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+hr {
+  color: white;
+  height: 5px; /* Adjust the value as needed */
+  background-color: white; /* Set the background color to match the color property */
+  border: none; /* Remove the default border */
+}
